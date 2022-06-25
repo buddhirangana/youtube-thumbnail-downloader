@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>#1 YouTube Thumbnail Downloader ▷ High Quality Images</title>
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+    <meta name='robots' content='index, follow' /> 
+    <meta name='author' content='Buddhi Rangana' />
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no' />
+    <meta name='description' content='YouTube Thumbnail Downloader automatically Generate High Quality Thumbnails or Images from YouTube videos. Paste your YouTube Video URL in the below box and Click on Download button. Within Second it will generate your sweet thumbnails.' />
+    <meta name='keywords' content='YouTube, YouTube Thumbnails Downloader, youtube, thumbnail, generator, screenshots, image generator, picture generator, maker, photo, creater, yt thumbnails full resolution' />
+    <meta property='og:url' content='https://buddhirangana.github.io/youtube-thumbnail-downloader' />
+    <meta property='og:title' content='#1 YouTube Thumbnail Downloader' />
+    <meta property='og:description' content='YouTube Thumbnail Downloader automatically Generate High Quality Thumbnails or Images from YouTube videos. Paste your YouTube Video URL in the below box and Click on Download button. Within Second it will generate your sweet thumbnails.' />
+    <link rel='canonical' href='https://buddhirangana.github.io/youtube-thumbnail-downloader' />
+    <link rel='icon' type='image/x-icon' href='images/favicon.png' />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    
+    <style>
+        #nav a img{
+            display:inline-block;
+            width:58% !important;
+        }
+    </style>
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "#1 YouTube Thumbnail Downloader ▷ High Quality Images",
+          "url": "https://buddhirangana.github.io/youtube-thumbnail-downloader",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://buddhirangana.github.io/youtube-thumbnail-downloader{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+    </script>
+</head>
+
+<body oncontextmenu="return false">
+    <nav class="navbar container-fluid site-gradient text-center" id="nav">
+        <a class="navbar-brand mx-auto" href="/"><img alt="Brand" src="images/navicon.png" ><a style="outline:none;" id="header-links" href="/"></a></a>
+    </nav>
+
+    <div class="container text-center" id="main">
+        <div id="result" class="hidden">
+            <img class="" id="thumbnailpreview" src="images/placeholder.jpg" onerror="this.style.display='none'" />
+            <hr style="width:50vw;">
+
+            <div class="input-group"><input id="ytlink" autofocus type="text" class="form-control shadow" placeholder="Enter a YouTube Video URL" spellcheck="false" onsubmit="youtube_thumbnail_downloader(ytlink.value);ShowMain()" autocomplete="off" /></div>
+            <button id="thumbdloadbtn" class="thumbdloadbtn site-gradient" type="button" onclick="youtube_thumbnail_downloader(ytlink.value);ShowMain()">DOWNLOAD</button>
+
+            <div id="download-buttons">
+                <a target="_blank" id="thumbnailhq" download><button class="thumbdloadbtn site-gradient shadow">High Resolution (Full HD)</button></a><br>
+                <a target="_blank" id="thumbnailmq" download><button class="thumbdloadbtn site-gradient shadow">Medium Resolution (HD)</button></a><br>
+                <a target="_blank" id="thumbnaillq" download><button class="thumbdloadbtn site-gradient shadow">Lowest Resolution (SD)</button></a><br>
+                <a onclick="location.reload();"><button class="thumbdloadbtn site-gradient shadow">Fetch Again</button></a>
+            </div>
+            
+            <div class="share-buttons">
+                <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https://buddhirangana.github.io/youtube-thumbnail-downloader/" target="_blank" rel="noopener" aria-label="">
+                  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small">
+                    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                        <path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+  
+                <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=#1 YouTube Thumbnail Downloader ▷ High Quality Images&amp;url=https://buddhirangana.github.io/youtube-thumbnail-downloader/" target="_blank" rel="noopener" aria-label="">
+                  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+                    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                        <path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+  
+                <a class="resp-sharing-button__link" href="whatsapp://send?text=#1 YouTube Thumbnail Downloader ▷ High Quality Images https://buddhirangana.github.io/youTube-thumbnail-downloader/" target="_blank" rel="noopener" aria-label="">
+                  <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small">
+                    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                        <path d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+  
+                <a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=#1 YouTube Thumbnail Downloader ▷ High Quality Images&amp;url=https://buddhirangana.github.io/youtube-thumbnail-downloader/" target="_blank" rel="noopener" aria-label="">
+                  <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small">
+                    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                        <path  d="M.707 8.475C.275 8.64 0 9.508 0 9.508s.284.867.718 1.03l5.09 1.897 1.986 6.38a1.102 1.102 0 0 0 1.75.527l2.96-2.41a.405.405 0 0 1 .494-.013l5.34 3.87a1.1 1.1 0 0 0 1.046.135 1.1 1.1 0 0 0 .682-.803l3.91-18.795A1.102 1.102 0 0 0 22.5.075L.706 8.475z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <h1>#1 YouTube Thumbnail Downloader ▷ High Quality Images</h1>
+        <p>The Purpose of this Website is to provide people a Simple Way to download and use YouTube Video Thumbnails from any Video on YouTube and all you need is the URL of the Video. </p>
+        <p>You can download the Thumbnails in Three Different Qualities, they are:
+        <ul>
+            <li>High Quality (Maximum Resolution - Full HD)</li>
+            <li>Medium Quality (Medium Resolution - HD)</li>
+            <li>Low Quality (Lowest Resolution - SD)</li>
+        </ul>
+        <hr>
+        <strong>
+            <p> High Quality Thumbnails won't open, what to do?</p>
+        </strong>
+        <p>- That's because the High Quality Thumbnails are minimum of <strong>1280 x 720 Pixels</strong> and if the Channel Owner has uploaded a Thumbnail lower than that, it won't work. Choose the Medium Quality or low.
+        </p>
+        <hr>
+        <strong>
+            <p> Are the Thumbnails Copyright Free?</p>
+        </strong>
+        <p>- Even though most of them are, it's highly recommended that you take Permission from the Video owner before downloading the Thumbnail and using it somewhere like your commercial Project.</p>
+        <hr>
+        <strong>
+            <p> Is it Legal to Download YouTube Thumbnails?</p>
+        </strong>
+        <p>- Of course it's 100% legal you can download any YouTube videos thumbnails but as you know thumbnail and video are  copyrighted product you should take author permissions 1st in order to reuse that.</p>
+        <hr>
+        <strong>
+            <p> Is Reusing YouTube Thumbnails are SEO Friendly?</p>
+        </strong>
+        <p>- Nope it's not, in short answer it's not seo friendly because almost all thumbnails which are on YouTube are indexed by Google. So which one is unique and which one is duplicate google know it. So it's not SEO friendly as you know. But you can do some stuff on that thumbnail I mean getting some unique effects using photoshop or any other software that can make your thumbnail unique again so that can be reused and make that seo friendly again.</p><br>
+        <hr>
+        <br>
+        <div class="links">
+            <a href="https://buddhirangana.github.io/permalink-generator/" target="_blank">Permalink Generator</a>
+            <a href="https://buddhirangana.github.io/Color-Picker/" target="_blank">Color Picker</a>
+            <a href="https://buddhirangana.github.io/qr-code-generator/" target="_blank">QR Code Generator</a>
+        </div>
+    </div>
+    
+    <footer id="footer" class="site-gradient container-fluid text-center">
+        <div id="social-media">
+            <a href="https://www.facebook.com/buddhi.rangana.official" target="_blank" id="social-media-icons"><img id="social" src="images/svg/facebook.svg" alt="Facebook"></img></a>
+            <a href="https://twitter.com/buddhirangana" target="_blank" id="social-media-icons"><img id="social" src="images/svg/twitter.svg" alt="Twitter"></img></a>
+            <a href="https://www.instagram.com/buddhirangana" target="_blank" id="social-media-icons"><img id="social" src="images/svg/instagram.svg" alt="Instagram"></img></a><br>
+            <span id="copyright">Made with <i class="heart"><i class="fa fa-heart fa-4x fa-beat"></i></i> by <a href="https://buddhirangana.github.io" target="_blank" id="copyrightlink">Buddhi Rangana</a></span>
+        </div>
+    </footer>
+
+    <script src="js/jquery3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+        
+    <script type="text/javascript">
+        // Replace source
+        $('img').error(function () {
+            $(this).attr('src', '#.png');
+        });
+
+        // Or, hide them
+        $("img").error(function () {
+             $(this).hide();
+        });
+    </script>
+    <script>
+        $('#ytlink').keydown(function (e) {
+            var keyCode = (e.keyCode ? e.keyCode : e.which);
+            if (keyCode == 13) {
+                $('#thumbdloadbtn').trigger('click');
+            }
+        });
+    </script>
+    <script>
+        $("#preview div").hide();
+        $("#preview");
+    </script>
+    <script>
+        var realImage = document.getElementById('thumbnailpreview');
+        var loadingImage = document.getElementById('loadingImage');
+        loadingImage.style.display = 'inline';
+        realImage.style.display = 'none';
+
+        // Create new image
+        var imgPreloader = new Image();
+        // define onload (= image loaded)
+        imgPreloader.onload = function () {
+            realImage.src = imgPreloader.src;
+            realImage.style.display = 'inline';
+            loadingImage.style.display = 'none';
+        };
+        // set image source
+        imgPreloader.src = 'images/placeholder.jpg';
+    </script>
+</body>
+
+</html>
