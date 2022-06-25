@@ -1,5 +1,5 @@
 # YouTube Thumbnail Downloader
-<p align="center"><img src="images/demo.PNG"></p>
+<p align="center"><img src="images/demo.png"></p>
 
 YouTube Thumbnail Downloader is a Tool. Which can be created using HTML, CSS and Javascript. With the help of this tool you can download the “Thumbnail” used on any YouTube video. That too with their requirement and different quality.
 
